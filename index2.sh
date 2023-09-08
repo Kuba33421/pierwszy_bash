@@ -86,7 +86,7 @@ fi
  # echo $line
 #done < input.txt
 #!/bin/bash
-echo "Today is " `date`
+#echo "Today is " `date`
 
 #echo -e "\nenter the path to directory"
 #read the_path
