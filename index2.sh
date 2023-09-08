@@ -67,3 +67,10 @@ while [[ $# -gt 0]]; do
         ;;
     esac
 done
+
+
+if [ -z "plik_wejsciowy"]; then
+    echo "Nie wybrales zadnego pliku."
+    exit 1 
+
+else
