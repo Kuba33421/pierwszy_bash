@@ -57,3 +57,13 @@ while [[ $# -gt 0]]; do
             shift
             shift
             ;;
+        -out)
+            plik_wyjsciowy="$2"
+            shift
+            shift
+            ;;
+        *)
+        shift
+        ;;
+    esac
+done
