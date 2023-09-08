@@ -74,3 +74,22 @@ if [ -z "plik_wejsciowy"]; then
     exit 1 
 
 else
+
+if [ ! -f "plik_wejsciowy"]; then
+    echo "Plik $plik_wejsciowy nie istnieje."
+    exit 1 
+fi
+
+
+#while read line
+#do
+ # echo $line
+#done < input.txt
+#!/bin/bash
+echo "Today is " `date`
+
+#echo -e "\nenter the path to directory"
+#read the_path
+
+#echo -e "\nyour path has the following files and folders: "
+#ls $the_path
